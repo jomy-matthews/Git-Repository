@@ -69,7 +69,7 @@ public class BDDLoginTest {
 		System.out.println("User gets confirmation########");
 		Assert.assertTrue(driver.findElement(By.id("conf_message")).getText().contains("success"));
 	}
-
+ 
 
 
 	@After
